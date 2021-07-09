@@ -158,4 +158,52 @@ h4 {
     border-left: dotted 3px var(--primary-color);
     height: 3rem;
   }
+  /*CONTACT*/
+  .contact-form {
+    _border: 1px solid hotpink;
+    display: flex;
+    grid-auto-flow: column;
+    height: auto;
+    font-size: 0.8rem;
+  }
+  .contact-form > * {
+    display: flex;
+    flex-flow: column;
+    max-width: 80ch;
+    min-width: 50ch;
+    resize: none;
+  }
+  textarea {
+    resize: none;
+    width: 100%;
+    height: 8rem;
+  }
+  .message {
+    resize: none;
+  }
+  .contact-label {
+    padding: 0.25rem 0.25rem 0.125rem 0;
+  }
+  .contact-button {
+    transition: background-color 0.5s;
+  }
+  .contact-button:hover {
+    background-color: var(--success);
+    transition: background-color 0.5s;
+  }
+  .contact-list {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    padding: 0;
+  }
+  .contact-list li {
+    height: 4rem;
+    width: auto;
+  }
+  .contact-list img {
+    height: 80%;
+    width: auto;
+  }
 }
