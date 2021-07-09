@@ -224,4 +224,99 @@ h4 {
   .side-nav a:hover {
     background-color: var(--primary-light);
   }
+  .article-heading {
+    border-bottom: dotted 1.5px var(--primary-color);
+  }
+  .section-heading {
+    display: flex;
+    justify-content: space-between;
+  }
+  .section-heading {
+    margin: 1rem 0.5rem 0 0;
+  }
+  .section-heading > p {
+    font-size: 0.7rem;
+    margin: 1rem 0.5rem 0 0;
+  }
+  .content-section {
+    border-bottom: dotted 1px var(--primary-color);
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+  }
+  .exp-p {
+    font-size: 0.8rem;
+    padding-left: 0.25rem;
+  }
+
+  /*SKILLS*/
+  .flexContainer {
+    display: flex;
+    _background-color: lightgrey;
+  }
+  .flexContainer p {
+    margin: 0;
+    padding: 0;
+    padding-left: 0.5rem;
+    color: var(--dark);
+  }
+  .flexContainer > div {
+    width: 50%;
+    _background-color: lightgrey;
+    margin: 2px;
+    padding: 0.25rem 0.5rem 0.25rem 0rem;
+  }
+  .skillContainer {
+    width: 100%;
+    _background-color: lightgrey;
+  }
+  .skills {
+    border: 1px solid black;
+    text-align: right;
+    padding-top: 0.5rem;
+    padding-bottom: 0.125rem;
+    color: white;
+    padding-right: 4px;
+  }
+  .skillContainer > * + * {
+    margin-top: 3px;
+  }
+  .html {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    padding-bottom: 4px;
+    background-color: #f8c19c;
+  }
+  .css {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    padding-bottom: 4px;
+    background-color: #f7af7f;
+  }
+  .js {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 10%;
+    padding-bottom: 4px;
+    background-color: #f8c19c;
+  }
+  .python {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 45%;
+    padding-bottom: 4px;
+    background-color: #f7af7f;
+  }
+  .php {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    background-color: #808080;
+  }
 }
