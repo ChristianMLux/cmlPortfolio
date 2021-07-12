@@ -117,7 +117,9 @@ a:hover::first-letter {
   padding: 0.9rem 0 0 0;
   border-bottom: dotted 2px var(--primary-color);
 }
-
+.content-wrapper {
+  margin-bottom: 1rem;
+}
 .grid-content-side {
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
@@ -136,6 +138,11 @@ a:hover::first-letter {
   width: 40%;
   padding: 0 auto;
   margin: 0 auto;
+  opacity: 0.5;
+  transition: 0.5s ease-in-out;
+}
+.side-wrapper img:hover {
+  opacity: 1;
 }
 
 .imglink {
@@ -231,21 +238,29 @@ textarea {
   border-bottom: dotted 1.5px var(--primary-color);
 }
 .section-heading {
+  font-weight: bolder;
   display: flex;
   justify-content: space-between;
+  _border-left: 1px dotted var(--primary-color);
 }
 .section-heading {
   margin: 1rem 0.5rem 0 0;
 }
+
 .section-heading > p {
   font-size: 0.7rem;
   margin: 1rem 0.5rem 0 0;
 }
 .content-section {
-  border-bottom: dotted 1px var(--primary-color);
-  margin-bottom: 1rem;
-  padding-bottom: 1rem;
+  border-left: dotted 1px var(--primary-color);
+  padding-left: 0.4rem;
+  _margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
 }
+.content-wrapper:last-child {
+  _border-bottom: 2px dotted var(--primary-color);
+}
+
 .exp-p {
   font-size: 0.8rem;
   padding-left: 0.25rem;
@@ -257,7 +272,8 @@ textarea {
   _background-color: lightgrey;
 }
 .flexContainer p {
-  font-size: 1rem;
+  font-size: 0.9rem;
+  font-weight: bold;
   margin: 0;
   padding: 0;
   padding-left: 0.125rem;
@@ -274,7 +290,7 @@ textarea {
   _background-color: lightgrey;
 }
 .skills {
-  border: 1px solid black;
+  border: 0.5px solid var(--bright);
   text-align: right;
   padding-top: 0.5rem;
   padding-bottom: 0.1rem;
