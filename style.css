@@ -147,6 +147,7 @@ a:hover::first-letter {
 }
 
 .imglink {
+  width: 3.8rem;
   position: relative;
   padding: 0.35rem 0.4rem 0 0.3rem;
   left: 10rem;
