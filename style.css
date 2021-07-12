@@ -294,7 +294,7 @@ SOFT-SKILLS
   justify-content: space-between;
   width: 100%;
   padding-bottom: 4px;
-  background-color: #f8c19c;
+  background-color: var(--primary-color);
 }
 .english {
   display: flex;
@@ -302,7 +302,7 @@ SOFT-SKILLS
   justify-content: space-between;
   width: 70%;
   padding-bottom: 4px;
-  background-color: #f8c19c;
+  background-color: var(--primary-light);
 }
 .teamwork {
   display: flex;
@@ -310,7 +310,7 @@ SOFT-SKILLS
   justify-content: space-between;
   width: 80%;
   padding-bottom: 4px;
-  background-color: #f8c19c;
+  background-color: var(--primary-color);
 }
 .flexibility {
   display: flex;
@@ -318,7 +318,7 @@ SOFT-SKILLS
   justify-content: space-between;
   width: 85%;
   padding-bottom: 4px;
-  background-color: #f8c19c;
+  background-color: var(--primary-light);
 }
 .teachability {
   display: flex;
@@ -326,7 +326,7 @@ SOFT-SKILLS
   justify-content: space-between;
   width: 95%;
   padding-bottom: 4px;
-  background-color: #f8c19c;
+  background-color: var(--primary-color);
 }
 .communicativity {
   display: flex;
@@ -334,7 +334,7 @@ SOFT-SKILLS
   justify-content: space-between;
   width: 100%;
   padding-bottom: 4px;
-  background-color: #f8c19c;
+  background-color: var(--primary-light);
 }
 .indenpendency {
   display: flex;
@@ -342,7 +342,7 @@ SOFT-SKILLS
   justify-content: space-between;
   width: 75%;
   padding-bottom: 4px;
-  background-color: #f8c19c;
+  background-color: var(--primary-color);
 }
 .empathy {
   display: flex;
@@ -350,7 +350,7 @@ SOFT-SKILLS
   justify-content: space-between;
   width: 100%;
   padding-bottom: 4px;
-  background-color: #f8c19c;
+  background-color: var(--primary-light);
 }
 
 /*
@@ -362,39 +362,65 @@ TECH-SKILLS
   justify-content: space-between;
   width: 90%;
   padding-bottom: 4px;
-  background-color: #f8c19c;
+  background-color: var(--primary-color);
 }
 .css {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 80%;
+  width: 70%;
   padding-bottom: 4px;
-  background-color: #f7af7f;
+  background-color: var(--primary-light);
+}
+.java {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 55%;
+  padding-bottom: 4px;
+  background-color: var(--primary-color);
+}
+.typespeed {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 4px;
+  background-color: var(--primary-light);
 }
 .js {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 10%;
+  width: 25%;
   padding-bottom: 4px;
-  background-color: #f8c19c;
+  background-color: var(--primary-color);
 }
 .python {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 45%;
+  width: 15%;
   padding-bottom: 4px;
-  background-color: #f7af7f;
+  background-color: var(--primary-light);
 }
-.php {
+.sql {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 60%;
-  background-color: #808080;
+  width: 25%;
+  padding-bottom: 4px;
+  background-color: var(--primary-color);
 }
+.erp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 45%;
+  padding-bottom: 4px;
+  background-color: var(--primary-light);
+}
+
 @media screen and (max-width: 478px) {
   html {
     font-size: 15px;
