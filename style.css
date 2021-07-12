@@ -336,12 +336,12 @@ textarea {
     font-size: 0.7em;
   }
   .section-heading {
-    _font-size: 1.1em;
+    font-size: 1.1em;
     flex-flow: column;
     margin-top: 0;
   }
   .section-heading > p {
-    _font-size: 0.7rem;
+    font-size: 0.9em;
     margin: 0.25rem 0.5rem 0 0.25rem;
   }
   .section-heading > p::before {
@@ -354,7 +354,7 @@ textarea {
     margin: 0;
   }
   .exp-p {
-    font-size: 0.7em;
+    font-size: 0.8em;
   }
   .content-p {
     font-size: 0.7em;
