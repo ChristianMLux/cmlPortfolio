@@ -94,6 +94,7 @@ h4 {
   margin: 0.5rem 0.2rem 0.5rem 0;
   padding: 0.4rem 1rem 0.2rem 0.5rem;
   border-left: dotted 3px var(--primary-color);
+
   font-size: 1.125rem;
   font-weight: bold;
   font-family: "Josefin Slab", serif;
