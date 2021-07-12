@@ -332,6 +332,15 @@ textarea {
     padding: 0 0 0 2rem;
     margin: 0 0rem 0 2rem;
   }
+  .content-subheading {
+    font-size: 0.9em;
+  }
+  .section-heading {
+    font-size: 1em;
+  }
+  .exp-p {
+    font-size: 0.8em;
+  }
 }
 @media screen and (max-width: 992px) {
   html {
