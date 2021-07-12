@@ -91,7 +91,7 @@ h4 {
   flex-flow: column;
 }
 .main-nav a {
-  margin: 0.5rem 0 0.5rem 0;
+  margin: 0.5rem 0.2rem 0.5rem 0;
   padding: 0.4rem 1rem 0.2rem 0.5rem;
   border-left: dotted 3px var(--primary-color);
   font-size: 1.125rem;
@@ -103,8 +103,8 @@ h4 {
 }
 
 .main-nav > a:hover {
-  margin-left: 0.0125rem;
-  border-left: dotted 5px var(--bright);
+  _margin-left: 0.0125rem;
+  border-left: dotted 3px var(--bright);
   background-color: var(--primary-light);
   transition: border-left 0.5s, background-color 0.5s;
 }
@@ -462,6 +462,16 @@ TECH-SKILLS
 @media screen and (max-width: 578px) {
   .skills p {
     font-size: 0.7rem;
+  }
+  .contact-form > * {
+    display: flex;
+    flex-flow: column;
+    max-width: 45ch;
+    min-width: 30ch;
+    resize: none;
+  }
+  .content-p {
+    margin-right: 1rem;
   }
 }
 @media screen and (max-width: 456px) {
