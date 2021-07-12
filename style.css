@@ -333,13 +333,13 @@ textarea {
     margin: 0 0rem 0 2rem;
   }
   .content-subheading {
-    font-size: 0.9em;
+    font-size: 0.7em;
   }
   .section-heading {
-    font-size: 1em;
+    font-size: 1.1em;
   }
   .exp-p {
-    font-size: 0.8em;
+    font-size: 0.7em;
   }
 }
 @media screen and (max-width: 992px) {
