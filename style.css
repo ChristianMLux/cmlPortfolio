@@ -10,8 +10,8 @@ html {
 }
 body {
   max-width: 80ch;
-  --primary-color: #f27a02;
-  --primary-light: #fd9935;
+  --primary-color: #ffb549;
+  --primary-light: #ffc062;
   --success: #a3db33;
   --error: #ed3221;
   --warn: #ffc642;
