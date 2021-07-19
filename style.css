@@ -502,6 +502,11 @@ TECH-SKILLS
     margin-right: 1rem;
   }
 }
+@media print {
+  .main-nav {
+    display: none;
+  }
+}
 @media screen and (max-width: 456px) {
   .skills p {
     font-size: 0.5rem;
