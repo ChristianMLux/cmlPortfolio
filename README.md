@@ -5,14 +5,18 @@
 
 will content:
 
-> CV
-> Showroom
-> Profile
-> Contact
-> WelcomePage
+- [x] CV
+- [ ] Showroom
+- [x] Profile
+- [x] Contact
+- [x] WelcomePage
 
-Next Steps:
--implement the CV
--get the contact formular running
--mobile version
--showroom
+
+Todos: 
+- [ ] Finish CV
+- [ ] Contact Formular
+- [ ] Mobile
+- [ ] Showroom
+
+
+
