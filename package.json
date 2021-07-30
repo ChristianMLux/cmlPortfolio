@@ -1,0 +1,22 @@
+{
+  "name": "cmlportfolio",
+  "version": "1.0.0",
+  "description": "Portfolio for Christian M. Lux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristianMLux/cmlPortfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Christian M Lux",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChristianMLux/cmlPortfolio/issues"
+  },
+  "homepage": "https://github.com/ChristianMLux/cmlPortfolio#readme"
+}
