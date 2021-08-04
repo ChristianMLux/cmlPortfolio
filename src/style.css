@@ -487,6 +487,67 @@ TECH-SKILLS
 }
 
 /*BETA*/
+
+/*
+* REPO CARDS
+*/
+
+.repo-card {
+  width: 100%;
+  margin: 1rem 0;
+  background-color: hotpink;
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "image" "text";
+  border-radius: 1rem;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.repo-card > div {
+}
+.repo-img {
+  grid-area: image;
+  background: url("https://screenshotapi-dot-net.storage.googleapis.com/rndcolor_netlify_app__f52340fa0213.png");
+  border-bottom-left-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+.repo-content {
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  background-color: var(--bright);
+  border-left: 1px solid var(--grey);
+  padding: 0.5rem;
+}
+.repo-heading {
+  display: flex;
+  justify-content: space-between;
+}
+.repo-heading > * {
+  padding: 0;
+  margin: 0;
+}
+.repo-name {
+  font-weight: bold;
+  border-bottom: 1px dotted var(--primary-color);
+}
+.repo-date {
+  font-size: 0.75em;
+  margin-top: 0.2rem;
+}
+.repo-description {
+  font-size: 0.9em;
+}
+.badge-wrapper {
+  display: flex;
+}
+.badge-wrapper > * {
+  padding: 0.125rem;
+  margin: 0;
+}
+
+/* WIP CARDS*/
+
 .card-wrapper {
   width: 100%;
   height: auto;
