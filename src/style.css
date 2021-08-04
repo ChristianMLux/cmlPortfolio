@@ -494,7 +494,7 @@ TECH-SKILLS
 
 .repo-card {
   width: 100%;
-  margin: 1rem 0;
+  margin: 2rem 0;
   background-color: hotpink;
   display: grid;
   grid-template-rows: 100%;
@@ -504,15 +504,18 @@ TECH-SKILLS
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
-.repo-card > div {
-}
+
 .repo-img {
-  grid-area: image;
+  grid-area: "image";
   background: url("https://screenshotapi-dot-net.storage.googleapis.com/rndcolor_netlify_app__f52340fa0213.png");
   border-bottom-left-radius: 1rem;
   border-top-left-radius: 1rem;
 }
+.repo-img.repo2 {
+  background: url("https://screenshotapi-dot-net.storage.googleapis.com/randompetfacts_netlify_app__04b5fdfed78f.png");
+}
 .repo-content {
+  grid-area: "text";
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;
   background-color: var(--bright);
