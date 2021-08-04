@@ -450,6 +450,14 @@ TECH-SKILLS
 }
 
 /*Showroom*/
+.sigimg-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.sigimg {
+  width: 75%;
+  height: auto;
+}
 .old-showroom {
   margin: 0 auto;
   display: flex;
