@@ -17,6 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&family=Open+Sans:wght@300&display=swap"
       rel="stylesheet"
     />
+    
     <title>Portfolio</title>
   </head>
   <body>
@@ -45,6 +46,25 @@
             <div class="content-wrapper">
               <h2 class="content-heading">Showroom</h2>
               <p class="content-subheading">WORK IN PROGRESS</p>
+              <section class="old-showroom">
+                <h4 class="section-heading">
+                  past projects <br><br>2005-2014
+                </h4>
+                <div class="slider">
+                  <img src="/img/slides/slide01.jpg" alt="" class="slides">
+                  <img src="/img/slides/slide02.jpg" alt="" class="slides">
+                  <img src="/img/slides/slide03.jpg" alt="" class="slides">
+                  <img src="/img/slides/slide04.jpg" alt="" class="slides">
+                  <img src="/img/slides/slide05.jpg" alt="" class="slides">
+                  <img src="/img/slides/slide06.jpg" alt="" class="slides">
+                  <img src="/img/slides/slide07.jpg" alt="" class="slides">
+                  <div class="slider-btn-wrapper">
+                    <button class="slider-btn" onclick="plusDivs(-1)">&#10094;</button>
+                  <button class="slider-btn" onclick="plusDivs(1)">&#10095;</button>
+                  </div>
+                  
+                </div>
+              </section>
               <p class="content-p">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Dolorum quas blanditiis aliquid, facilis ullam incidunt eum,
@@ -67,6 +87,9 @@
                 necessitatibus praesentium natus adipisci, sit aut quidem
                 mollitia qui quis tempora quaerat neque distinctio!
               </p>
+            </div>
+
+              </div>
             </div>
             <section class="git-wrapper">
               <ul class="git-list" id="gitList"></ul>
@@ -108,11 +131,56 @@
               >DEMO</a
             >
             <img src="img/techtileDemo.jpg" />
+
           </div>
         </div>
         <div class="grid-footer"></div>
       </div>
     </main>
+    <script src="script/slider.js"></script>
     <script src="showroomScript.js"></script>
   </body>
 </html>
+
+<!--
+
+                
+              <div class="card-wrapper">
+                <div class="card">
+                  <div class="card-image"></div>
+                  <div class="card-text">
+                    <span class="date">4 days ago</span>
+                    <h2>Post One</h2>
+                    <p>
+                      Lorem ipsum dolor sit demoise amet consectetur,
+                      Ducimusele, repudiandae temporibus omnis illum maxime quod
+                      deserunt eligendi dolor
+                    </p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-image card2"></div>
+                  <div class="card-text card2">
+                    <span class="date">1 week ago</span>
+                    <h2>Post Two</h2>
+                    <p>
+                      Adipisicing elit. Ducimus, repudiandae corrupti tialeno
+                      des ameto temporibus omnis provident illum maxime quod.
+                      Lorem ipsum dolor
+                    </p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-image card3"></div>
+                  <div class="card-text card3">
+                    <span class="date">3 week ago</span>
+                    <h2>Post Three</h2>
+                    <p>
+                      Repudiandae repudiandae de corrupti amet temporibus omnis
+                      si provident illum maxime. Ducimus, lorem ipsum dolor
+                      adipisicing elit
+                    </p>
+                  </div>
+                </div>
+                </div>
+-->
